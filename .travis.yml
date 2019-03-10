@@ -1,0 +1,15 @@
+sudo: required
+language: generic
+services: docker
+script:
+- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
+tectonic --web-bundle "https://tectonic.newton.cx/bundles/tlextras-2018.1r0/bundle.tar" subcommittee_regulations.tex
+deploy:
+  provider: releases
+  api_key:
+    secure: HtidR0q3xVPJfx6SfE+rh2Up9pq2HIk2YtYECpI2jGQNAbOm+wCET1VDipeiSlIQdIXLLI45MTNNq5TfUXt7yYfkGDGN2RSVAPXgkuoa3VipVfHMHuN86KcESA6+6H9CHD2TTwp+bxh9O6bAdDpkDxYFgi8+bjVJJPnVUuI0pEjjjmtOrlNPz3yGiZMM00mow5ibftFFS9y0cAW9HNo7J+Z84Cott+hwB2HKnxICPJ7LcdAnkz/dUEWE9Ihr4WhcDBllVXB14FCAZ00tnpG2y4MaDfM2w7syFpN4KTmoJZX58tG1/0ZPPBl86YBcz+fSppUs8JWGdXOB58m873jgljuj3KidKPg2tUZH9vzE3C/IvqDbjPigvwYLHBNgjV1T4vbbj+64CcKW9qCv87FOtEE7ZhagaTzwhqePn9XYRUG89DWRB035MT4SG691Nmi9yaORGqEFsKKpg2BuxpOGH4ADNvcy68Vj6VJ6E8aLE751i2D3FRGsiKIbcSgGCzzrUdzZaSPDUJMLQjexD4TjGblFmwBAg1eqQfxh71acSsbDTfws5DDbbY1TViJRy3o6PGnf3Lwb0RqRu4DhvvcMUi/ozFciB3fK67McR+cP3WJ7CANwMtw/3xE2Y4hju+GgOvdVGGqZF8Yf+WkmM+BC+EDQgGMLfP1waF5DCVtRmbA=
+  file: subcommittee_regulations.pdf
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
