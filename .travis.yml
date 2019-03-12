@@ -2,7 +2,7 @@ sudo: required
 language: generic
 services: docker
 script:
-- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker tectonic --web-bundle "https://tectonic.newton.cx/bundles/tlextras-2018.1r0/bundle.tar" subcommittee_regulations.tex
+- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker tectonic subcommittee_regulations.tex
 deploy:
   provider: releases
   api_key:
