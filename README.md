@@ -7,4 +7,4 @@ The document is written in LaTeX.
 
 Please maintain a history of amendments as an appendix in the document.
 
-New releases are rolled automatically and pushed to the `gh-pages` branch for publication by GitHub Pages. For this reason amendments should be created as pull requests and not pulled until they are officially accepted.
+New releases are rolled automatically and pushed to the `gh-pages` branch for publication by GitHub Pages. **For this reason amendments should be created as pull requests and not pulled until they are officially accepted**.
