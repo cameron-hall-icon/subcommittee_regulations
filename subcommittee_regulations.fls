@@ -18,14 +18,10 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifpdf.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifpdf.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifxetex.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
 INPUT subcommittee_regulations.aux
