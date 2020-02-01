@@ -1,0 +1,14 @@
+name: Test Build
+
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@master
+    - name: Compile LaTeX
+      uses: xu-cheng/latex-action@master
+      with:
+        root_file: subcommittee_regulations.tex
