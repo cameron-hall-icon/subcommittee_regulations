@@ -15,10 +15,5 @@ jobs:
     - uses: actions/upload-artifact@v1
       if: always()
       with:
-        name: pdf
-        path: subcommittee_regulations.pdf
-    - uses: actions/upload-artifact@v1
-      if: always()
-      with:
-        name: log
-        path: subcommittee_regulations.log
+        name: result
+        path: ./
