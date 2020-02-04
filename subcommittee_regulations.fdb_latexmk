@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1580795910 "subcommittee_regulations.tex" "subcommittee_regulations.pdf" "subcommittee_regulations" 1580795910
+["pdflatex"] 1580797077 "subcommittee_regulations.tex" "subcommittee_regulations.pdf" "subcommittee_regulations" 1580797077
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -31,9 +31,9 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1580517468 4765002 9eb23b0d51eed01931e34214c8920dce ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1580517497 4292951 c8893691ebaa37fc44ac2b9c6467e0d6 ""
   "/opt/texlive/texdir/texmf.cnf" 1580517462 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "subcommittee_regulations.aux" 1580795910 968 b19dccb090c464afa6c828a4c51bf567 "pdflatex"
-  "subcommittee_regulations.tex" 1580795909 7352 f13601fdbbbea5757b25c8207464b44b ""
+  "subcommittee_regulations.aux" 1580797077 968 b19dccb090c464afa6c828a4c51bf567 "pdflatex"
+  "subcommittee_regulations.tex" 1580797076 7352 f13601fdbbbea5757b25c8207464b44b ""
   (generated)
+  "subcommittee_regulations.aux"
   "subcommittee_regulations.log"
   "subcommittee_regulations.pdf"
-  "subcommittee_regulations.aux"
